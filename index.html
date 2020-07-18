@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Générateur de mot de passe</title>
+    <!-- sources :  https://www.youtube.com/watch?v=fOvYE1i_IiY
+                    https://www.youtube.com/watch?v=lqM74F9FsrQ -->
+</head>
+<body>
+    <div class="inputBox">
+        <h2>Générateur de mot de passe</h2>
+        <input type="text" name="" placeholder="mot de passe" id="password" readonly="">
+        <img src="copy.png" class="copy" onclick="copyPassword();">
+        <div id="btn" onclick="getPassword();">Générer</div>
+    </div>
+    <div class="alertBox"></div>
+    <script type="text/javascript" src="app.js"></script>
+</body>
+</html>
